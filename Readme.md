@@ -20,7 +20,7 @@ This project sets up a reverse proxy using Node.js, Express, and Docker. The rev
 
 ```bash
 git clone <repository-url>
-cd reverse-proxy
+cd rfa-docker-proxy
 ```
 
 ### 2. Start the Services
