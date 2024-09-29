@@ -23,20 +23,12 @@ git clone <repository-url>
 cd reverse-proxy
 ```
 
-### 2. Build the Docker Image
-
-Run the following command to build the Docker image:
-
-```bash
-docker-compose build
-```
-
-### 3. Start the Services
+### 2. Start the Services
 
 Use Docker Compose to start the services:
 
 ```bash
-docker-compose up
+docker compose up
 ```
 
 This command will start both the reverse proxy and management API. The management API will be accessible at `http://localhost:8080`, and the reverse proxy will run at `http://localhost`.
